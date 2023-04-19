@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezado{
+    display: flex;
+    width: 260px;
+    height: 50px;
+    background-color: #bcf;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Teclado{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    width: 600px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.Teclado td button{
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    font-style: inherit;
+    color: black;
+    border-radius: 15px;
+    padding: 0px;
+    background-color: lightgrey;
+}
+
+#resultado{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 80px;
+    line-height: 100px;
+    background-color: #bcf;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
